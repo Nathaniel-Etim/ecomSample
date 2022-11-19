@@ -1,0 +1,60 @@
+.registration {
+  background-color: rgba(40, 40, 162, 0.104);
+}
+
+.form {
+  display: flex;
+  padding: 1rem;
+}
+
+.right {
+  flex: 1;
+}
+
+.left {
+  flex: 1;
+}
+
+label {
+  padding: 3px;
+}
+
+.userInput {
+  max-width: 10rem;
+}
+
+.formItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.aboutus {
+  align-items: center;
+  text-align: center;
+}
+
+.submitBtn {
+  background-color: blueviolet;
+  margin: 1rem 40%;
+  cursor: pointer;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 2px;
+}
+
+.error {
+  border-color: rgba(255, 0, 0, 0.559);
+  background-color: rgba(255, 0, 0, 0.295);
+  color: rgba(255, 255, 255, 0.504);
+}
+
+@media screen and (max-width: 787px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .userInput {
+    max-width: 18rem;
+  }
+}

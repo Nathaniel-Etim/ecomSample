@@ -1,0 +1,50 @@
+.SearchMovie {
+  flex: 8;
+}
+
+span {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgb(136 136 136);
+}
+.category {
+  display: flex;
+  padding: 0 2rem;
+}
+
+.categoryList {
+  display: flex;
+}
+
+.categoryItem {
+  padding: 5px 1rem;
+  width: 7rem;
+  margin: 0.3rem 0.5rem;
+  font-size: smaller;
+  font-weight: 100;
+  border: 1px solid red;
+  color: darkslategray;
+  background-color: blueviolet;
+
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.categoryItem:hover {
+  background-color: rgba(137, 43, 226, 0.294);
+}
+
+@media screen and (max-width: 865px) {
+  .categoryList {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .category {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 2rem; */
+  }
+}

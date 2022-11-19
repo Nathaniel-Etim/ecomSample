@@ -1,0 +1,38 @@
+.LoginForm {
+  background-color: rgba(40, 40, 162, 0.104);
+}
+
+.form {
+  display: flex;
+  /* background-color: red; */
+  max-height: 40rem;
+  max-width: 100rem;
+  margin: 0 20%;
+  padding: 3rem;
+}
+
+form input {
+  outline: none;
+  border: none;
+  padding: 1rem;
+  margin: 2px;
+
+  border-bottom: 3px solid gray;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.login {
+  background-color: blueviolet;
+  cursor: pointer;
+  max-width: 70px;
+  border: 2px solid gray;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 530px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+}
